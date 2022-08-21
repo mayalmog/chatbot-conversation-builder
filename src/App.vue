@@ -1,6 +1,14 @@
 <template>
   <div id="app">
     <h1>Chatbot Conversation builder</h1>
+    <div class="input-div">
+      <input type="text" v-model="chatID" />
+      <button @click="loadChat">Load chat</button>
+    </div>
+
+    <div v-if="chatToDisplay" class="chat">
+      <pre>{{ chatToDisplay }}</pre>
+    </div>
   </div>
 </template>
 
@@ -9,9 +17,18 @@ import { conversationService } from "@/services/conversation.service";
 
 export default {
   name: "App",
-
-  mounted() {
-    conversationService.conversationByChatId("334PS89");
+  data() {
+    return {
+      chatID: "",
+      chatToDisplay: null,
+    };
+  },
+  methods: {
+    loadChat() {
+      this.chatToDisplay = conversationService.conversationByChatId(
+        this.chatID
+      );
+    },
   },
 };
 </script>
@@ -24,5 +41,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.chat {
+  text-align: left;
 }
 </style>

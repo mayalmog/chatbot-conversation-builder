@@ -21,4 +21,5 @@ function conversationByChatId(chatID) {
     });
   }
   console.log(chat);
+  return chat;
 }
