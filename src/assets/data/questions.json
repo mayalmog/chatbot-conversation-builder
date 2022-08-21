@@ -1,0 +1,62 @@
+[
+  {
+    "qid": 1,
+    "qtype": 1,
+    "qtext": "Hi! I'm Olivia, your personal Paradox job assistant. Thank you for your interest. We are looking for great talent for many types of jobs. To get started, can you please provide me with your first and last name?"
+  },
+  {
+    "qid": 2,
+    "qtype": 1,
+    "qtext": "Hi! I'm Olivia, your personal Paradox job assistant. Thank you for your interest. We are looking for great talent for many types of jobs. Are you still interested in the position?"
+  },
+  {
+    "qid": 3,
+    "qtype": 3,
+    "qtext": "Do you have any experience as a veterinarian?"
+  },
+  {
+    "qid": 4,
+    "qtype": 2,
+    "qtext": "How many years of Truck Driving experience do you have?"
+  },
+  {
+    "qid": 5,
+    "qtype": 3,
+    "qtext": "Have you heard of Paradox before?"
+  },
+  {
+    "qid": 6,
+    "qtype": 1,
+    "qtext": "Hi! I'm Olivia, your personal Paradox job assistant. Thank you for your interest in our Veterinarian position. We have some questions for you! To get started, can you please provide me with your first and last name?"
+  },
+  {
+    "qid": 7,
+    "qtype": 3,
+    "qtext": "Would you say you care about the effect of the trucking industry on global warming?"
+  },
+  {
+    "qid": 8,
+    "qtype": 1,
+    "qtext": "Why do you want to work at Paradox?"
+  },
+  {
+    "qid": 9,
+    "qtype": 2,
+    "qtext": "On a scale of 1-10, rate your affection to farm animals"
+  },
+  {
+    "qid": 10,
+    "qtype": 3,
+    "qtext": "Do you perform well in a team?"
+  },
+  {
+    "qid": 11,
+    "qtype": 2,
+    "qtext": "From 1 to 10, how would you rate the process so far?"
+  },
+  {
+    "qid": 12,
+    "qtype": 1,
+    "qtext": "Hi! I'm Olivia, your personal Paradox job assistant. Thank you for your interest in our company! We have many open positions and so I would like to ask you some questions in various subjects if that's ok :) To get started, can you please provide me with your first and last name?"
+  }
+]

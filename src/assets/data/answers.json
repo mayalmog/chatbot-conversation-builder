@@ -1,0 +1,45 @@
+[
+    {
+        "qids": [4],
+        "range": {
+            "min": 0,
+            "max": 30
+        }
+    },
+    {
+        "qids": [11, 9],
+        "range": {
+            "min": 1,
+            "max": 10
+        }
+    },
+    {
+        "qids": [5,3],
+        "atext": "Yes"
+    },
+    {
+        "qids": [3,5],
+        "atext": "No"
+    },
+    {
+        "qids": [10],
+        "atext": "I do"
+    },
+    {
+        "qids": [7],
+        "atext": "Very much"
+    },
+    {
+        "qids": [7, 10],
+        "atext": "A bit"
+    },
+    {
+        "qids": [7],
+        "atext": "Not so much"
+    },
+    {
+        "qids": [10, 7],
+        "atext": "Not at all"
+    }
+]
+
